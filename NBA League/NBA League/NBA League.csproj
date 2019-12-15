@@ -57,6 +57,11 @@
     <Compile Include="repository\PlayerFileRepository.cs" />
     <Compile Include="repository\StudentFileRepository.cs" />
     <Compile Include="repository\TeamFileRepository.cs" />
+    <Compile Include="service\ActivePlayerService.cs" />
+    <Compile Include="service\GameService.cs" />
+    <Compile Include="service\PlayerService.cs" />
+    <Compile Include="service\StudentService.cs" />
+    <Compile Include="service\TeamService.cs" />
     <Compile Include="test\TestDomains.cs" />
     <Compile Include="test\TestValidation.cs" />
     <Compile Include="validation\IValidator.cs" />
@@ -70,9 +75,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="utils\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="resources\ActivePlayerFile.txt" />
+    <Content Include="resources\GameFile.txt" />
     <Content Include="resources\PlayerFile.txt" />
     <Content Include="resources\StudentFile.txt" />
     <Content Include="resources\TeamFile.txt" />

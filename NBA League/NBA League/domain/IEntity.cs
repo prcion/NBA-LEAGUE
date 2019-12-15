@@ -8,6 +8,6 @@ namespace NBA_League.domain
 {
     interface IEntity<Id>
     {
-        Id ID { get; set; }
+        Id ID { get; set;}
     }
 }

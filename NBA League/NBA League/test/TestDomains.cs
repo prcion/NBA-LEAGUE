@@ -28,16 +28,14 @@ namespace NBA_League.test
 
             Debug.Assert(teamTwo.ID == 2);
             Debug.Assert(teamTwo.name == "Chicago Bulls");
-
-            teamOne.ID = 3;
+            
             teamOne.name = "Chicago Bulls";
-            teamTwo.ID = 4;
             teamTwo.name = "Houston Rockets";
 
-            Debug.Assert(teamOne.ID == 3);
+            Debug.Assert(teamOne.ID == 1);
             Debug.Assert(teamOne.name == "Chicago Bulls");
 
-            Debug.Assert(teamTwo.ID == 4);
+            Debug.Assert(teamTwo.ID == 2);
             Debug.Assert(teamTwo.name == "Houston Rockets");
         }
 

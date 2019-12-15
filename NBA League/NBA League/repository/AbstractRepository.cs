@@ -25,7 +25,7 @@ namespace NBA_League.repository
                 validator.Validate(e);
                 if (elems.ContainsKey(e.ID))
                 {
-                    return e;
+                    return default(E);
                 }
                 elems.Add(e.ID, e);
             }
@@ -33,7 +33,7 @@ namespace NBA_League.repository
             {
                 throw ex;
             }
-            return default(E);
+            return e;
         }
          
         public virtual E Update(E e)
@@ -44,14 +44,14 @@ namespace NBA_League.repository
                 if (elems.ContainsKey(e.ID))
                 {
                     elems[e.ID] = e;
-                    return default(E);
+                    return e;
                 }
             }
             catch (ValidationException ex)
             {
                 throw ex;
             }
-            return e;
+            return default(E);
         }
 
         public virtual E Delete(ID id)

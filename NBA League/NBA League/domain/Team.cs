@@ -8,7 +8,7 @@ namespace NBA_League.domain
 {
     class Team : IEntity<int>
     {
-        public int ID { get; set; }
+        public int ID { get; set;}
         public string name { get; set; }
 
         public Team(int ID, string name){
