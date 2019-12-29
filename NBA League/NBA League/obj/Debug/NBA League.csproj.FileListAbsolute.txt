@@ -5,3 +5,10 @@ E:\NBA League\NBA League\bin\Debug\NBA League.exe
 E:\NBA League\NBA League\bin\Debug\NBA League.pdb
 E:\NBA League\NBA League\obj\Debug\NBA League.exe
 E:\NBA League\NBA League\obj\Debug\NBA League.pdb
+E:\facultate\NBA League\NBA League\obj\Debug\NBA League.csprojAssemblyReference.cache
+E:\facultate\NBA League\NBA League\obj\Debug\NBA League.csproj.CoreCompileInputs.cache
+E:\facultate\NBA League\NBA League\obj\Debug\NBA League.exe
+E:\facultate\NBA League\NBA League\obj\Debug\NBA League.pdb
+E:\facultate\NBA League\NBA League\bin\Debug\NBA League.exe.config
+E:\facultate\NBA League\NBA League\bin\Debug\NBA League.exe
+E:\facultate\NBA League\NBA League\bin\Debug\NBA League.pdb

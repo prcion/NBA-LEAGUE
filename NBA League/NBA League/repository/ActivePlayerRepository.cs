@@ -29,7 +29,7 @@ namespace NBA_League.repository
                     if (values.Length == 3)
                     {
                         double numberOfPoints;
-                        bool ok = double.TryParse(values[0], out numberOfPoints);
+                        bool ok = double.TryParse(values[1], out numberOfPoints);
                         if (ok)
                         {
                             string[] val = values[0].Split('.');

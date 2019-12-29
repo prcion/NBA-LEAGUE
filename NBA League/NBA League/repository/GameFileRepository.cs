@@ -28,7 +28,7 @@ namespace NBA_League.repository
                 while ((line = read.ReadLine()) != null)
                 {
                     string[] values = line.Split(';');
-                    if (values.Length == 3)
+                    if (values.Length == 4)
                     {
                         int id;
                         bool ok = int.TryParse(values[0], out id);
@@ -69,6 +69,7 @@ namespace NBA_League.repository
             {
                 foreach (Game game in FindAll())
                 {
+                    Console.WriteLine(game);
                     writer.WriteLine("{0};{1};{2};{3}", game.ID, game.teamOne.ID, game.teamTwo.ID, game.date.ToString());
                 }
             }

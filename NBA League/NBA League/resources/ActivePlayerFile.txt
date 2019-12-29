@@ -1,0 +1,4 @@
+1.2;12;Participant
+2.2;22;Participant
+2.3;23;Rezerva
+2.4;32,3;Rezerva

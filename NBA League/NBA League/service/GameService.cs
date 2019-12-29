@@ -29,7 +29,7 @@ namespace NBA_League.service
             game = default(Game);
             Team teamOne = teamRepo.FindOne(IDOne);
             Team teamTwo = teamRepo.FindOne(IDTwo);
-            if(!(teamOne is default(Team)) && !(teamTwo is default(Team)))
+            if (!(teamOne is default(Team)) && !(teamTwo is default(Team)))
             {
                 try
                 {
